@@ -10,6 +10,6 @@ for(int i = 1; numberB >= i; i++)
 {
     degreeOfNumber = degreeOfNumber * numberA;
     Console.WriteLine(degreeOfNumber);
-   
+
    
 }
