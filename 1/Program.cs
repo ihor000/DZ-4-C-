@@ -6,10 +6,11 @@ int numberB = Convert.ToInt32(Console.ReadLine());
 
 int degreeOfNumber = numberA;
 
-for(int i = 1; numberB >= i; i++)
+for(int i = 1; numberB > i; i++)
 {
     degreeOfNumber = degreeOfNumber * numberA;
-    Console.WriteLine(degreeOfNumber);
-
    
+    Console.Write("A в степени B равно:"); 
+    Console.WriteLine(degreeOfNumber);  
+
 }
