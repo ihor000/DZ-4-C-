@@ -6,8 +6,8 @@ int numberB = Convert.ToInt32(Console.ReadLine());
 
 int degOfNumber = numberA; 
 
-for(int i = 1; i <= numberB; i++)
+for (int i = 1; i < numberB; i++)
 {   
     degOfNumber = degOfNumber * numberA;
-    Console.WriteLine(degOfNumber);
 }
+Console.WriteLine(degOfNumber);  
